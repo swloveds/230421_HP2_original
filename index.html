@@ -3,8 +3,9 @@
   <head>
     <title>CAFE's NAME</title>
     <meta charset="UTF-8">
-    <link href="css/rest.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
@@ -21,10 +22,10 @@
     <div class="top_nav">
      <nav class="top_nav_wrap">
       <ul>
-       <li><a href="css/about.css">ABOUT</a></li>
-       <li><a href="css/menu.css">MENU</a></li>
-       <li><a href="css/event.css">EVENT</a></li>
-       <li><a href="css/contact.css">CONTACT</a></li>
+       <li><a href="html/about.html">ABOUT</a></li>
+       <li><a href="html/menu.html">MENU</a></li>
+       <li><a href="html/event.html">EVENT</a></li>
+       <li><a href="html/contact.html">CONTACT</a></li>
       </ul>
      </nav>
     </div>
@@ -143,19 +144,19 @@
         <div class="contact_list">
         <ul>
           <li>
-            <h2>TEL</h2>
+            <h3>TEL</h3>
             <div>
               <p>03-xxxx-xxxx</p>
             </div>
           </li>
           <li>
-            <h2>Email</h2>
+            <h3>Email</h3>
             <div>
               <p>noname-cafe@gmail.com</p>
             </div>
           </li>
           <li>
-            <h2>SNS</h2>
+            <h3>SNS</h3>
             <div>
               <a href="#"><img src="img/instagram.png" alt="instagram" class="contact_img"></a>
               <a href="#"><img src="img/twitter.png" alt="twitter" class="contact_img"></a>
@@ -164,19 +165,22 @@
         </ul>
         </div>
         <div class="rsv_btn_wrap">
-          <button class="rsv_btn" type="button">座席予約はこちら</button>
+          <a href="#">
+            <button class="rsv_btn" type="button">座席予約はこちら</button>
+          </a>
         </div>
       </section>
     </main>
+<!--FOOTER-->
     <footer>
       <h1 class="footer_title">NO NAME CAFE</h1>
     <div class="footer_nav">
       <nav class="footer_nav_wrap">
         <ul>
-          <li><a href="css/about.css">ABOUT</a></li>
-          <li><a href="css/menu.css">MENU</a></li>
-          <li><a href="css/event.css">EVENT</a></li>
-          <li><a href="css/contact.css">CONTACT</a></li>
+          <li><a href="html/about.html">ABOUT</a></li>
+          <li><a href="html/menu.html">MENU</a></li>
+          <li><a href="html/event.html">EVENT</a></li>
+          <li><a href="html/contact.html">CONTACT</a></li>
         </ul>
       </nav>
     </div>
@@ -184,6 +188,7 @@
      <a href="#"><img src="img/instagram.png" alt="instagram" class="footer_img"></a>
      <a href="#"><img src="img/twitter.png" alt="twitter" class="footer_img"></a>
     </div>
+    <p class="copyright">©︎NO NAME CAFE</p>
     </footer>
   </body>
 </html>

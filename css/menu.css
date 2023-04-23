@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+
+/*MENU COMMON*/
+
+.img_filter2::after {
+  content: '';
+  background: linear-gradient(0deg, rgba(236, 204, 204, 0.2), rgba(236, 204, 204, 0.2));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 40vh;
+
+}
+
+.food_menu_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.food_menu {
+  margin: 10px 30px;
+  width: 25%;
+
+}
+
+.food_img {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.food_img img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+.food_detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food_name,
+.food_price {
+  padding: 10px 30px;
+}
+
+
+/*COFFEE*/
+
+.coffee_fixed_bg{
+  position: relative;
+  background: linear-gradient(0deg, rgba(236, 204, 204, 0.2),
+    rgba(236, 204, 204, 0.2)), url(../img/IMG0078b.webp) no-repeat center;
+  
+   min-height: 100%;
+   height: 400px;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.coffee_menu_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 60px auto;
+}
+
+.coffee_menu_list ul{
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.coffee_menu_list ul li{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+}
+
+.coffee_name{
+  width: 70%;
+  text-align: left;
+}
+
+.coffee_price{
+  width: 30%;
+  text-align: right;
+}
+
+/*FOOD*/
+
+.food_fixed_bg{
+  background: linear-gradient(0deg, rgba(236, 204, 204, 0.2),
+    rgba(236, 204, 204, 0.2)), url(../img/スクリーンショット\ 2023-04-19\ 22.23.01.png) no-repeat center;
+  min-height: 100%;
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;  
+}
+
+
+/*DESSERT*/
+
+.food2_fixed_bg{
+  background: linear-gradient(0deg, rgba(236, 204, 204, 0.2),
+    rgba(236, 204, 204, 0.2)), url(../img/IMG0094b-1.webp) no-repeat center;
+  min-height: 100%;
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;  
+}
