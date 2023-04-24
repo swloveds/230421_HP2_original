@@ -117,8 +117,8 @@
 /*DESSERT*/
 
 .food2_fixed_bg{
-  background: linear-gradient(0deg, rgba(236, 204, 204, 0.2),
-    rgba(236, 204, 204, 0.2)), url(../img/IMG0094b-1.webp) no-repeat center;
+  background: linear-gradient(0deg, rgba(236, 204, 204, 0.1),
+    rgba(236, 204, 204, 0.1)), url(../img/IMG0094b-1.webp) no-repeat center;
   min-height: 100%;
   height: 400px;
   background-size: cover;

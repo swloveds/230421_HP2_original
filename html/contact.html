@@ -33,14 +33,86 @@
   </div>
   <!--MAIN-->
   <main>
-    <!--ABOUT-->
+    <!--CONTACT-->
     <section class="contact_section">
       <h1 class="section_title">CONTACT</h1>
+        <div class="contact_list">
+          <ul>
+            <li>
+              <h3 class="contact_mini_ttl">TEL</h3>
+              <div class="contact_detail">
+                <p>03-xxxx-xxxx</p>
+              </div>
+            </li>
+            <li>
+              <h3 class="contact_mini_ttl">Email</h3>
+              <div class="contact_detail">
+                <p>noname-cafe@gmail.com</p>
+              </div>
+            </li>
+            <li>
+              <h3 class="contact_mini_ttl">SNS</h3>
+              <div class="contact_detail contact_img_wrap">
+                <a href="#"><img src="../img/instagram.png" alt="instagram" class="contact_img"></a>
+                <a href="#"><img src="../img/twitter.png" alt="twitter" class="contact_img"></a>
+              </div>
+            </li>
+          </ul>
+        </div> 
     </section>
-    <section class="contact_section">
+    <!--RESERVATION-->
+    <section class="rsv_section">
       <h1 class="section_title">RESERVATION</h1>
+      <div class="rsv_detail">
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+      <div>
+        <form class="rsv_form">
+         <div class="form_wrap">
+          <label for="name" class="label_required">お名前</label>
+          <input type="name" class="form_box" required="required" id="name">
+         </div> 
+        <div class="form_wrap">
+          <label for="phone" class="label_required">お電話番号</label>
+          <input type="phone" class="form_box" required="required" id="number">
+        </div>
+        <div class="form_wrap">
+          <label for="email" class="label_required">メールアドレス</label>
+          <input type="email" class="form_box" required="required" id="email">
+        </div>
+        <div class="form_wrap">
+          <label for="date" class="label_required">予約希望日</label>
+          <input type="date" class="form_box" required="required" id="date">
+          <span></span>
+        </div>
+        <div class="form_wrap">
+          <label for="time" class="label_required">予約希望時間</label>
+          <input type="time" class="form_box" value="12:00" min="11:00" max="20:00" required="required" id="time">
+          <span></span>
+        </div>
+        <div class="form_wrap">
+          <label for="number" class="label_required">予約人数</label>
+          <input type="number" class="form_box" value="2" min="1" max="8" required="required" id="number">
+        </div>
+        <div class="form_wrap">
+          <label for="select" class="label_required">ご利用コース</label>
+          <select name="course" class="form_box" required="required">
+            <optgroup>
+              <option class="select_with" hidden> 以下から選択</option>
+              <option class="select_with" value="座席のみ予約">座席のみ予約</option>            
+              <option class="select_with" value="3つの季節料理コース">3つの季節料理コース</option>
+              <option class="select_with" value="デザートコース">デザートコース</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form_wrap">
+          <label for="message" class="label_no_necessary">その他ご意見・ご要望</label>
+          <textarea type="text" class="form_box form_textbox" id="message" cols="30" rows="10">お問い合わせ内容をご入力ください</textarea>
+        </div>
+        <button type="submit" class="rsv_btn">予約する</button>
+      </form>
+      </div>
     </section>  
-
   </main>
   <!--FOOTER-->
   <footer>
