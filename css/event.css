@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+/*UPCOMING EVENT*/
+.up_event_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.up_event_detail{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30vh;
+  margin: 20px;
+}
+
+.up_event_img{
+  width: 100%;
+  height: 30vh;
+}
+
+.up_event_img img{
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.up_event_ttl{
+  margin: 10px auto;
+  text-align: left;
+  line-height: 20px;  
+}
+
+/*EVENT*/
+
+.event_intro {
+  margin: 50px auto;
+}
+
+.event_news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.event_news_list {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin: auto;
+}
+
+.event_news_list li {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgba(000, 000, 000, 0.3);
+}
+
+.border_top {
+  border-top: 1px solid rgba(000, 000, 000, 0.3);
+}
+
+.event_date,
+.event_title {
+  padding: 30px;
+  text-align: left;
+}
+
+.event_title {
+  margin: auto;
+}
